@@ -53,3 +53,4 @@ Route.post('/favoritos', async ({request,response})=> {
   return response.status(201).send(newFavorito)
 } )
 Route.resource ('favoritao', 'FavoritosController').apiOnly()
+Route.resource ('Usuario', 'UsuariosController').apiOnly()

@@ -1,5 +1,5 @@
 import type { HttpContextContract } from '@ioc:Adonis/Core/HttpContext'
-import Usuario from 'App/Models/Usuarios'
+import Usuario from 'App/Models/Usuario'
 import { DateTime } from 'luxon'
 import { md5 } from 'js-md5';
 
